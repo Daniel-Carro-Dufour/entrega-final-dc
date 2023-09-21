@@ -1,0 +1,19 @@
+@mixin flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.875rem;
+    align-items: center;
+    gap: 1.875rem;
+    height: 8.125rem;
+}
+
+/* -- mixin usado en Galeria -- */
+@mixin carrusel {
+    margin-left: 20%;
+    align-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
+}

@@ -1,0 +1,29 @@
+
+footer {
+    background-color: $background-footer;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.875rem;
+    align-items: center;
+    gap: 1.875rem;
+    height: 6.25rem;
+
+    .navbar-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.875rem;
+        list-style: none;
+        height: auto;
+        font-size: 1.25rem;
+
+        li a {
+            text-decoration: none;
+            color: rgba(255, 235, 205, 0.729);
+
+            &:hover {
+                color: white;
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.footer-galeria {
+    background-color: rgba(47, 45, 45, 0.925);
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem .625rem;
+    align-items: center;
+    height: 6.25rem;
+
+    .navbar-2-galeria {
+        display: flex;
+        gap: 1.875rem;
+        list-style: none;
+        height: auto;
+        font-size: 1.25rem;
+        margin-right: 2.5rem;
+
+        li a {
+            text-decoration: none;
+            color: rgba(255, 235, 205, 0.729);
+
+            &:hover {
+                color: white;
+                text-decoration: underline;
+            }
+        }
+    }
+}

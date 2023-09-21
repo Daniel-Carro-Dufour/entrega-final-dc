@@ -1,0 +1,37 @@
+@media(max-width: 320px) {
+
+    .container {
+        div {
+            width: 80%;
+
+            div {
+                width: 90%;
+            }
+
+        }
+
+
+
+    }
+
+    footer {
+        .navbar-2 {
+            width: 100%;
+            flex-direction: row;
+            padding-left: 0%;
+            gap: .3125rem;
+        }
+    }
+
+
+
+    .footer-contacto{
+        .navbar-2 {
+            width: 100%;
+            flex-direction: row;
+            padding-left: 0%;
+            gap: .3125rem;
+        }
+
+    }
+}

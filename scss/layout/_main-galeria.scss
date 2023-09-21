@@ -1,0 +1,23 @@
+.galeria-main {
+    background-image: linear-gradient(to bottom, #01112a, #393454, #74597d, #b382a4, #f4afc7);
+    /*background-color: rgba(128, 128, 128, 0.49);*/
+
+    h1 {
+        font-size: 2.5rem;
+        color: rgb(224, 221, 221);
+    }
+
+    .carrusel {
+        @include carrusel
+
+        /*margin-left: 20%;
+        align-content: center;
+        align-items: center;
+        width: 50%;
+        height: 50%;
+        padding-top: 3.125rem;
+        padding-bottom: 3.125rem;
+        */
+    }
+
+}

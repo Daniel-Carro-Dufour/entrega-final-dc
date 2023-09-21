@@ -1,0 +1,20 @@
+@media(max-width: 480px){
+    header{
+        height: 18.75rem;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        .icono{
+            height: 1.875rem;
+        }
+        .navbar{
+            flex-direction: column;
+            gap: .125rem;
+            padding-top: 0%;
+            
+        }
+
+    }
+    
+    
+}

@@ -1,0 +1,41 @@
+.video-section-1 {
+    h2 {
+        color: #e4e0e0;
+    }
+
+    background-image: linear-gradient(to bottom, #01112a, #393454, #74597d, #b382a4, #f4afc7);
+    height: 80vh;
+    background-color: rgba(70, 3, 3, 0.36);
+
+
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5%;
+    }
+}
+
+.videos-varios {
+    gap: 1.25rem;
+
+}
+
+.navbar-2-videos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.875rem;
+    list-style: none;
+    height: auto;
+    font-size: 1.25rem;
+
+    li a {
+        text-decoration: none;
+        color: rgba(255, 235, 205, 0.729);
+
+        &:hover {
+            color: white;
+        }
+    }
+}
